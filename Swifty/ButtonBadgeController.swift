@@ -12,7 +12,7 @@ class ButtonBadgeController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        navigationItem.title = "Button Budge"
+        navigationItem.title = "Button Budge Page"
     }
     
     
