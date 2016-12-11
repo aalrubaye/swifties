@@ -7,13 +7,25 @@
 //
 
 import UIKit
+import MIBadgeButton_Swift
 
 class ButtonBadgeController: UIViewController {
     
-    
+    @IBOutlet var badgeButton: MIBadgeButton!
+
     override func viewWillAppear(_ animated: Bool) {
         navigationItem.title = "Button Budge Page"
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        badgeButton.badgeString = "5"
+        
+        
+        
+    }
+    
     
     
 }
